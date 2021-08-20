@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Recapitulando o conteúdo</title>
+</head>
+<body>
+    <script>
+        /*
+            O aplicativo deve ser capaz de:
+                a.	Perguntar o nome, idade, altura e peso;
+                b.	Seguindo a formula IMC = Peso ÷ (Altura × Altura), retornar o resultado no IMC (numérico);
+
+        */
+        // 1. 
+        var nomeDoUsuario = prompt('Qual o seu nome?');
+        var idade = prompt('Qual sua idade?');
+        var altura = prompt('Qual a sua altura?');
+        var peso = prompt('Qual o seu peso?');
+        // 2. 
+        function IMC() {
+            alert(`Olá ${nomeDoUsuario}. aqui está o seu IMC: ${peso / [altura * altura]}.`);
+        }
+        // 5. Apresenta o resultado da cotação.
+        IMC();
+    </script>
+</body>
+</html>
