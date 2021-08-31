@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.banner {
+    height: 200px;
+    width: 100%;
+    background-image: url("2918041.jpg");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    }
+
+.botao {
+    border-radius: 5px;
+    border: blueviolet solid 6px;
+    width: 150px;
+    background-color: blueviolet;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    font-style: inherit;
+    color: white;
+    cursor: pointer;
+}
