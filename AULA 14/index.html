@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img src="images-removebg-preview.png">
+
+    <form class="formulario">
+
+        <h1>Faça sua encomenda</h1>
+
+        <fieldset>
+
+            <legend>Dados Pessoais</legend>
+
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Digite o seu nome">
+            </div>
+    
+            <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@email.com">
+            </div>      
+    
+            <div>
+                <input type="checkbox" checked id="promotions">
+                <label for="promotions">Quero receber promoções por email</label>
+
+            </div>
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Seu pedido</legend>
+
+            <div>
+                <p>Personalize sua caixa de brigadeiros:</p>
+            </div>
+
+            <div>
+                <label for="flavor">Sabores</label>
+                <select name="flavor" id="flavor">
+                    <optgroup label="Chocolate">
+                        <option value="1">Ao leite</option>
+                        <option value="2">Meio amargo</option>
+                        <option value="3">Branco</option>
+                     </optgroup>
+    
+                     <optgroup label="Frutas">
+                        <option value="4">Maracujá</option>
+                        <option value="5">Coco</option>
+                     </optgroup>
+
+                     <optgroup label="Especial">
+                        <option value="6">Whiskey</option>
+                        <option value="7">Amarula</option>
+                     </optgroup>
+                </select>    
+            </div>
+
+            <div>
+
+                <input type="radio" name="option" id="option">
+                <label for="option">15 unidades</label>
+                <input type="radio" name="option" id="option2">
+                <label for="option2">20 unidades</label>
+                <input type="radio" name="option" id="option2">
+                <label for="option2">50 unidades</label>
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Forma de Pagamento</legend>
+        <div>
+            <p>Escolha a sua forma de pagamento:</p>
+
+            <input type="radio" name="option" id="option">
+            <label for="option">Cartão de crédito</label>
+            <input type="radio" name="option" id="option2">
+            <label for="option2">Boleto</label>
+            <input type="radio" name="option" id="option2">
+            <label for="option2">Pix</label>
+        </div>
+        
+    </fieldset>
+        <fieldset>
+
+        <legend>Entrega</legend>
+
+        <div>
+            <div>
+                <label for="deliveryDate">Data da entrega:</label>
+                <input type="date" name="deliveryDate" id="deliveryDate">
+            </div>
+
+            <div>
+                <label for="address">Endereço:</label>
+                <input type="text" name="address" id="address">
+            </div>
+            
+            
+            <div>
+            <label for="state">Estados</label>
+            <select name="state" id="state">
+                <optgroup label="Sudeste">
+                    <option value="saoPaulo">São Paulo</option>
+                    <option value="rioDeJaneiro">Rio de Janeiro</option>
+                 </optgroup>
+
+                 <optgroup label="Nordeste">
+                    <option value="bahia">Bahia</option>
+                    <option value="pernambuco">Pernambuco</option>
+                 </optgroup>
+            </select>    
+        </div>
+
+        <div>
+
+            <label for="city">Cidade</label>
+            <input type="search" list="cities" name="city" id="city">
+            <datalist id="cities">
+                <option value="São Paulo">
+                <option value="Rio de Janeiro">
+                <option value="Salvador">
+                <option value="Recife">
+
+            </datalist>
+        </div>
+
+        <div>
+            <label for="comments">Comentários:</label>
+            <textarea name="comments" id="comments" cols="20" rows="5"></textarea>
+        </div>
+
+       
+        
+    </fieldset>    
+
+        <button class="botao" type="submit">Confirmar pedido</button>
+        <button class="botao" type="reset">Cancelar</button>
+    </form>   
+    
+</body>
+</html>
