@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+    background-image: url("fundo.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+
+    background-color: #fad60a;
+    position: fixed;
+    width: 100%; 
+        
+}
+
+.img-menu{
+    width: 80px;
+    padding-top: 10px;
+    
+}
+
+.link{
+
+    padding-left: 12px;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    margin: 12px;
+    padding: 12px 12px 0 12px;
+    background-color: white;
+    border: 1px orange solid;
+    position: relative;
+    left: 45%;
+    top: 65px;
+    box-sizing: border-box;
+}
+
+.packages{
+    width: 100%;
+    margin: 12px;
+}
+
+.book{
+
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    background-color: #ff4500;
+    border-radius: 24px;
+    border: 1px #ffa500 solid;
+    margin-top: 250px;
+    margin-left: 95px;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 5%;
+}
+
+.contact img{
+    
+position: fixed;
+width: 5%;
+right: 0;
+bottom: 0;
+display: block;
+
+}
+
+div p{
+
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    bottom: 20%;
+    padding-bottom: 5px;
+    text-align: center;
+}
