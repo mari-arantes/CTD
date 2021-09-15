@@ -1,0 +1,54 @@
+img{
+    width: 150px;
+    padding: 12px;
+    transition: 1s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.5);
+}
+
+.rent{
+
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 12px 32px;
+    position: relative;
+    left: 30px;
+    transition: 1s .3s ease-in-out;
+
+}
+
+.rent:hover{
+    background-color: cornflowerblue;
+    color: black;
+    transform: translateY(-10px);
+}
+
+@keyframes shake {
+    
+    0%{
+
+        opacity: 0;
+    }
+
+    50%{
+
+        transform: translate(20px);
+    }
+
+    100%{
+
+        transform: translate(-20px);
+    }
+}
+
+.animation{
+
+    animation-name: shake;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-size:  100px;
+    text-align: center;
+}
